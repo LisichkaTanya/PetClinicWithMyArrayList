@@ -11,17 +11,6 @@ public class PetClinic2 implements Serializable {
     MyArrayList<Client> arrayPetsClinicRegistration = new MyArrayList<Client>();
     private Object Client;
 
-//    /**
-//     * This method to communicate via the screen
-//     * @param input - String which tell to user what he need to do
-//     * @return - will return string what was reading from screen
-//     */
-//    public static String readFromScreen (String input) {
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println(input);
-//        String read = scanner.nextLine();
-//        return read;
-//    }
 
     // 1 case:
     public void addNewClient (String personName, String petType, String petName){
@@ -143,11 +132,11 @@ public class PetClinic2 implements Serializable {
         }
     }
 
-//    @Override
-//    public String toString() {
-//        return "PetClinic \n" +
-//                arrayPetsClinicRegistration;
-//    }
+    @Override
+    public String toString() {
+        return "PetClinic \n" +
+                arrayPetsClinicRegistration;
+    }
 
     public MyArrayList<Client> getArrayPetsClinicRegistration() {
         return arrayPetsClinicRegistration;

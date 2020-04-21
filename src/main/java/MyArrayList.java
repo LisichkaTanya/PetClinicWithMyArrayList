@@ -54,13 +54,13 @@ public class MyArrayList<E> implements Serializable {
         return size;
     }
 
-    @Override
-    public String toString() {
-        for (int i = 0; i < size; i++){
-            System.out.print(elementData[i] + " ");
-        }
-        return "";
-    }
+//    @Override
+//    public String toString() {
+//        for (int i = 0; i < size; i++){
+//            System.out.print(elementData[i] + " ");
+//        }
+//        return "";
+//    }
 
 
     public Object[] getElementData() {
